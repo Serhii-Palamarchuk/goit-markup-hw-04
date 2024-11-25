@@ -534,6 +534,10 @@ header .contacts ul li {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.portfolio-li-div-img-p:hover {
+  transform: translateY(0%);
+}
+
 .portfolio img {
   height: 300px;
 }
