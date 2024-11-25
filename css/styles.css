@@ -418,6 +418,20 @@ header .contacts ul li {
   justify-content: center;
 }
 
+.team-social-a:hover {
+  background-color: #404bbf;
+}
+
+.team-social-a:focus {
+  background-color: #404bbf;
+}
+
+.team-social-svg {
+  fill: #f4f4fd;
+  width: 20px;
+  height: 20px;
+}
+
 .portfolio {
   text-align: left;
   background-color: #ffffff;
