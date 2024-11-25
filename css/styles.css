@@ -102,10 +102,10 @@ img {
 .studio-link:first-child {
   position: relative;
   color: #404bbf;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: #404bbf 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.studio-link:first-child::after {
+.studio-link::after {
   content: "";
   position: absolute;
   left: 0;
