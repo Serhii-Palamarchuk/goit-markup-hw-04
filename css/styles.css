@@ -371,12 +371,6 @@ header .contacts ul li {
   padding: 32px 0;
 }
 
-.team-social-ul {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
-
 .team img {
   height: 260px;
   border-radius: 0px 0px 4px 4px;
@@ -401,6 +395,17 @@ header .contacts ul li {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+}
+
+.team-social-ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-social-li {
+  height: 40px;
+  width: 40px;
 }
 
 .portfolio {
