@@ -102,6 +102,7 @@ img {
 .studio-link:first-child {
   position: relative;
   padding: 24px 0;
+  color: #404bbf;
 }
 
 .studio-link:hover,
