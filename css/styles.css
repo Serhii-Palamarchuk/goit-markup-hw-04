@@ -99,6 +99,16 @@ img {
   height: auto;
 }
 
+.studio-link:first-child {
+  position: relative;
+  padding: 24px 0;
+}
+
+.studio-link:hover,
+.studio-link:focus {
+  color: #404bbf;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
