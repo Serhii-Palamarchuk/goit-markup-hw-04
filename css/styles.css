@@ -401,6 +401,7 @@ header .contacts ul li {
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding: 8px 0 0 0;
 }
 
 .team-social-li {
@@ -591,6 +592,8 @@ header .contacts ul li {
 .footer-social-media-ul {
   display: flex;
   gap: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-social-media-li {
