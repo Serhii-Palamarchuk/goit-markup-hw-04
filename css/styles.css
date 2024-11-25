@@ -546,6 +546,11 @@ header .contacts ul li {
   padding: 100px 0;
 }
 
+.footer-div {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-a {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
