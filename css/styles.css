@@ -98,13 +98,13 @@ img {
   height: auto;
 }
 
-.studio-link:first-child {
+.header-nav-li:first-child {
   position: relative;
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.studio-link::after {
+.header-nav-li-aft::after {
   content: "";
   position: absolute;
   left: 0;
@@ -114,8 +114,8 @@ img {
   background-color: #404bbf;
   border-radius: 2px;
 }
-.studio-link:hover,
-.studio-link:focus {
+.header-nav-li:hover,
+.header-nav-li:focus {
   color: #404bbf;
 }
 
@@ -129,11 +129,11 @@ img {
   margin-right: 76px;
 }
 
-.studio-link {
+.header-nav-li {
   padding: 24px 0;
 }
-.studio-link:hover,
-.studio-link:focus {
+.header-nav-li:hover,
+.header-nav-li:focus {
   color: #404bbf;
 }
 
@@ -219,7 +219,7 @@ header .contacts ul li {
   background-position: center;
   background-size: cover;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin: 0 auto;
+  margin: 0 auto 46.48px auto;
 }
 
 .hero-header {
