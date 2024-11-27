@@ -98,10 +98,13 @@ img {
   height: auto;
 }
 
-.header-nav-li:first-child {
+.header-nav-li {
   position: relative;
-  color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-nav-li-aft {
+  color: #404bbf;
 }
 
 .header-nav-li-aft::after {
